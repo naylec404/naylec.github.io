@@ -2,7 +2,7 @@
 
 ## 1 : first website version (home categorie)
 ## 2 : second (home and météo) website version boosted by V0
-## idk : fixe some bugs and update bio, CV and add link to trip school
+## others : fixe some bugs and update bio, CV and add link to trip school
 
 ---
 
@@ -14,7 +14,7 @@
 - CV
 - Social media
 - Who i am
-- tchat with ai
+- [//]tchat with ai/bot API[//]
 
 #### météo ###
 - OpenWeatherMap API
@@ -23,13 +23,20 @@
 
 ### actualités ####
 - WorldNews API
-- FreeDictionary API
-- ZenQuotes API
-- AlphaVantage API
-- journée internationale de ""
+- Citations API
+- Fête du Jour, Date API
+- Bourse API
+- [//]FreeDictionary API[//]
 
-### divertissements ####
+### sites ####
+-  liens et explication du projet "naylec - romania"
+-  liens et explication du projet "naylec - school"
+
+[//][//][//][//][//][//][//]
+### divertissements ####  
 - Watchmode API
 - Spotify API
 - TMDB API
 - IGDB API
+
+[//][//][//][//][//][//][//]

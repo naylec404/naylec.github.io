@@ -169,15 +169,70 @@ main {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .weather-container {
+    .construction-content {
+        padding: 30px 20px;
+    }
+
+    .tools-container {
+        gap: 20px;
+    }
+
+    nav ul {
+        display: none;
         flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-bg);
+        padding: 20px 0;
     }
 
-    .weather-card {
-        margin-bottom: 20px;
+    nav ul li {
+        margin: 10px 0;
     }
 
-    /* Existing responsive styles... */
+    .nav-toggle-label {
+        display: block;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: var(--color-primary);
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+
+    .nav-toggle-label span::before {
+        bottom: 7px;
+    }
+
+    .nav-toggle-label span::after {
+        top: 7px;
+    }
+
+    .nav-toggle:checked ~ ul {
+        display: flex;
+    }
+
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer p:first-child {
+        margin-bottom: 10px;
+    }
 }
 
 /* Footer styles */
